@@ -6,6 +6,25 @@
     font-family: bold;
     src: url(../Poppins/Poppins-Bold.ttf);
 }
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -263,4 +282,6 @@
         width: 100%;
         overflow: hidden;
     } 
-
+    .nav-links ul li{
+        display: block;
+    }   
